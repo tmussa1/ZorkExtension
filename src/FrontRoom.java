@@ -11,8 +11,6 @@ public class FrontRoom extends Rooms{
                 return new LibraryRoom();
             case '3':
                 return new KitchenRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new FrontRoom();
     }

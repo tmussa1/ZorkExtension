@@ -7,8 +7,6 @@ public class FoyerRoom extends Rooms {
         switch(description) {
             case '1':
                 return new FrontRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new FoyerRoom();
     }

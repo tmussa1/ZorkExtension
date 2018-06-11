@@ -6,8 +6,6 @@ public class SecretRoom extends Rooms {
         switch(description) {
             case '1':
                 return new VaultRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new SecretRoom();
     }

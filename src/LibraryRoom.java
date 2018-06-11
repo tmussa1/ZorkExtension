@@ -9,8 +9,6 @@ public class LibraryRoom extends Rooms {
                 return new DiningRoom();
             case '2':
                 return new FrontRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new LibraryRoom();
     }

@@ -5,14 +5,19 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Rooms fyr = new FoyerRoom();
         System.out.println(fyr.description());
-        char keyboard = input.next().charAt(0);
         Rooms room = new Rooms();
         room=fyr;
-        while(keyboard != 'Q'){
-            room = room.next(input.next().charAt(0));
-            System.out.println(room.description());
-            System.out.println(room.ghostfollow());
-        }
+        while(true){
+            char keyboard = input.next().charAt(0);
 
+            if(keyboard == 'Q'){
+                break;
+            }
+
+            room = room.next(keyboard);
+            System.out.println(room.description());
+
+        }
+        System.out.println(room.ghostfollow());
     }
 }

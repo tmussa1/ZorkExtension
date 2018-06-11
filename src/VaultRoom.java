@@ -16,8 +16,6 @@ public class VaultRoom extends Rooms {
                     default:
                         return new ParlorRoom();
                 }
-            case 'Q':
-                System.exit(0);
         }
         return new VaultRoom();
     }

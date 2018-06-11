@@ -11,7 +11,7 @@ public  class Rooms {
         Random rand = new Random();
         int random = rand.nextInt(4);
         if(random == 1) {
-            return "You are being followed bt a ghost";
+            return "You are being followed by a ghost";
         }
         return "Be carefull";
     }

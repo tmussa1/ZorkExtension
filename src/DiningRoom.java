@@ -7,8 +7,6 @@ public class DiningRoom extends Rooms {
         switch(description) {
             case '1':
                 return new LibraryRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new DiningRoom();
     }

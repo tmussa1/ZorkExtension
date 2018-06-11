@@ -9,8 +9,6 @@ public class ParlorRoom extends Rooms {
                 return new VaultRoom();
             case '2':
                 return new KitchenRoom();
-            case 'Q':
-                System.exit(0);
         }
         return new ParlorRoom();
     }

@@ -69,6 +69,7 @@ public class Main {
             }
 
             if(room.getClass() == character.getClass()){//Set money to 0 if he finds the character
+                System.out.println("YOU GOT ROBBED");
                 money = 0;
             }
 

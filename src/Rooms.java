@@ -15,4 +15,11 @@ public  class Rooms {
         }
         return "Be carefull";
     }
+
+    public double Money(){
+        return 0;
+    }
+    public String items(){
+        return " ";
+    }
 }

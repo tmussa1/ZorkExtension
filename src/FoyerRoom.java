@@ -10,4 +10,11 @@ public class FoyerRoom extends Rooms {
         }
         return new FoyerRoom();
     }
+
+    public double Money(){
+        return 9800.00;
+    }
+    public String items(){
+        return "Dead Scorpion";
+    }
 }

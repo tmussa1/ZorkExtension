@@ -14,4 +14,10 @@ public class FrontRoom extends Rooms{
         }
         return new FrontRoom();
     }
+    public double Money(){
+        return 3625;
+    }
+    public String items(){
+        return "Piano";
+    }
 }

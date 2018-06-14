@@ -9,4 +9,10 @@ public class SecretRoom extends Rooms {
         }
         return new SecretRoom();
     }
+    public double Money(){
+        return 8451;
+    }
+    public String items(){
+        return "Gold";
+    }
 }

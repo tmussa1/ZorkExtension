@@ -12,4 +12,10 @@ public class KitchenRoom extends Rooms {
         }
         return new KitchenRoom();
     }
+    public double Money(){
+        return 1230;
+    }
+    public String items(){
+        return "Bats";
+    }
 }

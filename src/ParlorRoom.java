@@ -12,4 +12,10 @@ public class ParlorRoom extends Rooms {
         }
         return new ParlorRoom();
     }
+    public double Money(){
+        return 5269;
+    }
+    public String items(){
+        return "Tressure chest";
+    }
 }

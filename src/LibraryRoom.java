@@ -12,4 +12,10 @@ public class LibraryRoom extends Rooms {
         }
         return new LibraryRoom();
     }
+    public double Money(){
+        return 3461;
+    }
+    public String items(){
+        return "Spiders";
+    }
 }

@@ -10,4 +10,10 @@ public class DiningRoom extends Rooms {
         }
         return new DiningRoom();
     }
+    public double Money(){
+        return 8467;
+    }
+    public String items(){
+        return "Dusty empty box";
+    }
 }

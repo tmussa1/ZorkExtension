@@ -19,4 +19,10 @@ public class VaultRoom extends Rooms {
         }
         return new VaultRoom();
     }
+    public double Money(){
+        return 5198;
+    }
+    public String items(){
+        return "Skeletons";
+    }
 }

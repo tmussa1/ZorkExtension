@@ -63,7 +63,7 @@ public class Main {
 
                 if(keymoney == 'y' || keymoney == 'Y') {
                     moneyList.add(room.Money());
-                    money += moneyList.get(index);
+                    money += moneyList.get(index);//add money from the vector if user consents and money is available
                 }
             index++;
             }

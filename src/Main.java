@@ -64,8 +64,8 @@ public class Main {
                 if(keymoney == 'y' || keymoney == 'Y') {
                     moneyList.add(room.Money());
                     money += moneyList.get(index);//add money from the vector if user consents and money is available
+                    index++;
                 }
-            index++;
             }
 
             if(room.getClass() == character.getClass()){//Set money to 0 if he finds the character
